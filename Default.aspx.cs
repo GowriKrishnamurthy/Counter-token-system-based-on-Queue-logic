@@ -13,5 +13,21 @@ namespace CounterQueueImp
         {
 
         }
+        //Next button on counter 1, 2 or 3 clicked will call same method - Next customer to serve
+        public void btnCounter1_Click(object sender, EventArgs args)
+        {
+        }
+        public void btnCounter2_Click(object sender, EventArgs args)
+        {
+        }
+        public void btnCounter3_Click(object sender, EventArgs args)
+        {
+        }
+
+        // To add customers to 
+        public void btnPrintToken_Click(object sender, EventArgs args)
+        {
+
+        }
     }
 }

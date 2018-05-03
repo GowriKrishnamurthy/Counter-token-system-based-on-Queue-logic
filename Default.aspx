@@ -28,15 +28,15 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="btnCounter1" Width="150px" runat="server" Text="Next" />
+                    <asp:Button ID="btnCounter1" Width="150px" runat="server" Text="Next" OnClick="btnCounter1_Click" />
                 </td>
                 <td></td>
                 <td>
-                    <asp:Button ID="btnCounter2" Width="150px" runat="server" Text="Next" />
+                    <asp:Button ID="btnCounter2" Width="150px" runat="server" Text="Next" OnClick="btnCounter2_Click" />
                 </td>
                 <td></td>
                 <td>
-                    <asp:Button ID="btnCounter3" Width="150px" runat="server" Text="Next" /></td>
+                    <asp:Button ID="btnCounter3" Width="150px" runat="server" Text="Next" OnClick="btnCounter3_Click" /></td>
             </tr>
             <tr>
                 <td colspan="5">
@@ -50,7 +50,7 @@
             </tr>
             <tr>
                 <td colspan="5">
-                    <asp:Button ID="btnPrintToken" Text="Print Tokens" runat="server" /></td>
+                    <asp:Button ID="btnPrintToken" Text="Print Tokens" runat="server" OnClick="btnPrintToken_Click" /></td>
             </tr>
             <tr>
                 <td colspan="5">
